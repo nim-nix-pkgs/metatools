@@ -11,6 +11,7 @@
   inputs.src-metatools-master.ref   = "refs/heads/master";
   inputs.src-metatools-master.owner = "jxy";
   inputs.src-metatools-master.repo  = "metatools";
+  inputs.src-metatools-master.dir   = "";
   inputs.src-metatools-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
